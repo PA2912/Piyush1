@@ -1,8 +1,8 @@
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import streamlit as st 
 
 def main():
-    load_dotenv()
+    #load_dotenv()
     st.set_page_config(page_title="Ask your PDF")
     st.header("Ask your PDF 💬")
     
